@@ -5,7 +5,7 @@
 }
 
 hr{
-    margin: 10px 10% ;
+    margin: 5% 10%;
 }
 
 body{
@@ -24,27 +24,67 @@ body{
 }
 
 .texto{
+    margin: 0 10%;
 }
 
 .titulo{
     font-size: 50px;
     text-align: center;
+    padding: 0 0 15px 0;
 }
 
 .subtitulo{
     text-align: center;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .parrafo{
     text-align: left;
-    font-size: 15px;
-    color: #575d61;
+    font-size: 13px;
+    color: #585e61;
     padding: 5px;
 }
 
 .icono{
-    margin: 0 0 0 63%;
+    margin: 0 0 0 67%;
     font-size: 40px;
     color: #367cf5;
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+} 
+
+label, input{
+    width: 80%;
+    margin: 0 10%;
+}
+
+input{
+    margin: 2% 10%;
+    padding: 10px 0;
+    border-radius: 7px;
+    border-color: lightgray;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #367cf5;
+    padding: 10px 0;
+    margin: 5% 10% 5% 10%;
+}
+
+.registrar{
+    margin: 0 10%;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+.registrar a{
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
 }
